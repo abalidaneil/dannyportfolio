@@ -1,10 +1,10 @@
 :root {
-            --primary: #008751; /* Nigerian green */
+            --primary: #00ADB5; /* Nigerian green */
             --secondary: #FFFFFF; /* Nigerian white */
-            --accent: #E6B301; /* Gold accent */
-            --dark: #121212;
-            --light: #f8f9fa;
-            --gray: #6c757d;
+            --accent: #ffd700; /* Gold accent */
+            --dark: #222831;
+            --light: #EEEEEE;
+            --gray: #393E46;
             --shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
             --transition: all 0.3s ease;
         }
@@ -178,7 +178,7 @@
             background-size: cover;
             background-position: center;
             color: white;
-            text-align: center;
+            text-align: justify;
         }
 
         .hero-content h1 {
@@ -194,13 +194,13 @@
         .hero-content p {
             font-size: 1.3rem;
             max-width: 700px;
-            margin: 0 auto 30px;
+            /* margin: 0 auto 30px; */
             color: rgba(255, 255, 255, 0.9);
         }
 
         .hero-btns {
             display: flex;
-            justify-content: center;
+            /* justify-content: center; */
             gap: 20px;
             margin-top: 30px;
         }
